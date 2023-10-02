@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <title>Radhika's Portfolio</title>
+    <!-- <link rel="stylesheet" href="media.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f94cb7fdf4.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <header>
+        <nav class="h-nav">
+            <div class="left"> Radhika's portfolio</div>
+            <div class="right v-class">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            
+            <div class="Hamburger">
+               <div class="bar"></div>
+               <div class="bar"></div>
+               <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Radhika</span> 
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                
+            </div>
+            <div class="rightsection">
+                <img src="assets/py04.jpeg" alt="">
+            </div>
+
+        </section>
+<!--    About -->
+        <div id="about" sectionsecond>
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/pt-5-removebg-preview.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <p>🚀 Frontend Developer | Web Enthusiast | Crafting User-Centric Experiences
+
+                            Passionate about frontend development, I'm dedicated to creating seamless and visually captivating web applications. With hands-on experience in HTML5, CSS3, Javascript, and a keen eye for detail, I'm committed to delivering exceptional user experiences. Let's connect and collaborate on exciting projects that push the boundaries of web development! 🌟
+
+                        </p>
+                        <div class="tab-titles ">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul style="margin-left: 10%;">
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing App interfaces</li>
+                                <li><span>UI?UX</span><br>Designing App interfaces</li>
+                                <li><span>UI?UX</span><br>Designing App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- sERVICES -->
+        <div id="services">
+            <div class="container">
+                <h1>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web DEsign</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, eius.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Web DEsign</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, eius.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Web DEsign</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, eius.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="container">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="assets/ama.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Amazon Clone</h3>
+                            <p>Experience the Amazon Landing Page clone expertly in HTML5 & CSS</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/cal.webp" alt="">
+                        <div class="layer">
+                            <h3>BMI Calculator</h3>
+                            <p> Created a BMI Calculator web application using HTML, CSS, and JavaScript to help users assess their body mass index easily.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/page.jpeg" alt="">
+                        <div class="layer">
+                            <h3>IEducate - Transforming Education Online:</h3>
+                            <p> A sleek and responsive landing page offering a diverse range of courses with easy navigation and interactive elements, built using HTML, CSS, and JavaScript.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- Contact -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>soniradhika303@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>8441894303</p>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Drop Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+         </div> 
+    </main>
+
+    <!-- Footer -->
+     <footer>
+        <div class="copyright">
+            <p>copyright @ Radhika. Made with<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </footer> 
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="/Portfolio/app.js"></script>
+    
+</body>
+
+</html>
